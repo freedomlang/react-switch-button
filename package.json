@@ -1,0 +1,42 @@
+{
+  "name": "react-switchs",
+  "version": "0.0.1",
+  "description": "Collection of switchs",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "scripts": {
+    "build": "rimraf dist && ./node_modules/.bin/rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "switch",
+    "toggle"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "chai-dom": "^1.8.1",
+    "flow-bin": "^0.91.0",
+    "flow-typed": "^2.5.1",
+    "jsdom": "^13.2.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^5.2.0",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-postcss": "^2.0.1"
+  }
+}
